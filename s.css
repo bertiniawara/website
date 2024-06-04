@@ -1,0 +1,145 @@
+body {
+background-image: url("img/pexels-vishnurnair-1105666.jpg");
+background-size: cover;
+background-position: center;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+
+nav li {
+margin-right: 20px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+}
+.logo {
+color: white;
+font-size: 2rem;
+}
+.search {
+margin-right: 40px;
+float: right;
+height: 80px;
+}
+
+.srch {
+border: 2px solid #ccc;
+boder-radius: 4px;
+padding: 8px;
+font-size: 16px;
+width: 300px;
+}
+
+
+button[type="submit"] {
+background-color: black;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+button[type="submit"]:hover {
+background-color: orange;
+}
+.menu {
+display: flex;
+align-items: center;
+}
+
+.menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.menu li {
+margin-right: 20px;
+}
+
+.menu a {
+color: white;
+text-decoration: none;
+transition: color 0.3s ease;
+
+}
+
+.menu a:hover {
+color: orange;
+}
+
+section {
+padding: 2em;
+margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+color: purple;
+margin-bottom: 10px;
+}
+
+audio {
+width: 100%;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+margin-bottom: 20px;
+}
+
+img {
+width: 100px;
+height: 100px;
+margin: 10px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+input, textarea {
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color:orange;
+}

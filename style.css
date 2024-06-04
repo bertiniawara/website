@@ -1,0 +1,108 @@
+body {
+background-image: url("img/pexels-vishnurnair-1105666.jpg");
+background-size: cover;
+background-position: center;
+margin: 0;
+padding: 0;
+}
+
+.main {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+background-color: rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(10px);
+}
+.icon{
+color: white;
+font-size: 2rem;
+float: left;
+}
+
+.logo {
+color: white;
+font-size: 2rem;
+}
+
+.menu {
+display: flex;
+align-items: center;
+}
+
+.menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.menu li {
+margin-right: 20px;
+}
+
+.menu a {
+color: white;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.menu a:hover {
+color: orange;
+}
+
+.search {
+margin-right: 40px;
+float: right;
+height: 80px;
+}
+
+.srch {
+border: 2px solid #ccc;
+boder-radius: 4px;
+padding: 8px;
+font-size: 16px;
+width: 300px;
+}
+
+
+button[type="submit"] {
+background-color: black;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+button[type="submit"]:hover {
+background-color: orange;
+}
+.content{
+width: 1200px;
+height: auto;
+color: white;
+font-size: 15px;
+position: relative;
+}
+
+.content .par{
+font-family: Arial;
+letter-spacing: 1.2px;
+line-height: 20px;
+}
+
+.content h1{
+font-family: "  Times New Roman";
+letter-spacing: 1.2px;
+line-height: 20px;
+font-size: 40px;
+}
+
